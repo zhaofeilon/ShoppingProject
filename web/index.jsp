@@ -8,6 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+    <script type="text/javascript">
+        function val(){
+            var name=window.document.getElementById("id1").value;
+            var password=window.document.getElementById("id2").value;
+            if (name == ""||password ==""){
+                window.alert("用户名或密码不能为空!");
+                return false;
+            }
+            return true;
+        }
+    </script>
     <title>欢迎光临</title>
   </head>
   <style>
@@ -50,21 +61,19 @@
   <p id="p3">
     请输入你的账户密码：
   </p>
-  <form name=loginForm action="shop/judgement.jsp" method=post>
+  <form name=loginForm action="shop/judgement.jsp" onsubmit="return val()" <%--通过js判断输入用户是否为空--%>method=post>
     <table align="center">
       <tr>
-        <td>用户名：</td><td><input type=text name=username /></td>
+        <td>用户名：</td><td><input type=text id="id1" name=username placeholder="请输入用户名" /></td>
       </tr>
       <tr>
-        <td>密码：</td><td><input type=password name=password /></td>
+        <td>密码：</td><td><input type=password id="id2" name=password placeholder="请输入密码" /></td>
       <tr/>
-      <tr>
-        <td colspan="2",align="center">
-          <input type="submit" value="登录" />
-          <input type="reset" value="刷新 " />
-        </td>
-      </tr>
+      <th align="center">
+          <input type="submit" value="登录" >
+      </th>
     </table>
+
   </form>
   </body>
 </html>
