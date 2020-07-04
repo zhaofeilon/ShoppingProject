@@ -66,9 +66,10 @@
       <tr>
         <td>密码：</td><td><input type=password id="id2" name=password placeholder="请输入密码" /></td>
       <tr/>
-      <th align="center">
-          <input type="submit" value="登录" >
-      </th>
+
+      <tr>
+        <td colspan="2" align="center"><input type="submit" style="height:25px;width:50px;font-size:15px;" value="登录" ></td>
+      </tr>
     </table>
 
   </form>

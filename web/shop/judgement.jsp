@@ -17,7 +17,7 @@
     request.setCharacterEncoding("UTF-8");
     String name=request.getParameter("username");
     String password = request.getParameter("password");
-    if(name.equals("admin")&&password.equals("123")){
+    if(name.equals("赵旋")&&password.equals("2701170232")){
         session.setAttribute("id",name);
         // out.print("欢迎光临");
         pageContext.forward("HomePage.jsp");
