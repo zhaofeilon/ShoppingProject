@@ -22,9 +22,6 @@
     <title>欢迎光临</title>
   </head>
   <style>
-    body{
-      background-color: gainsboro;
-    }
     #p1{
       text-align: center;
        color :black;

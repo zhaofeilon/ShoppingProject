@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>wrong</title>
 </head>
-<body style="background-color: gainsboro">
-<p ><img src="picture/ahstu.jpg" alt="xiaohui" width="150" height="150">
+<body>
+<p ><img src="../picture/ahstu.jpg" alt="xiaohui" width="150" height="150">
 </p>
 <h style="font-size: x-large">
     密码或用户名错误，请重新尝试；
