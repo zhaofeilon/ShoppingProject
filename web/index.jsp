@@ -68,7 +68,8 @@
       <tr/>
 
       <tr>
-        <td colspan="2" align="center"><input type="submit" style="height:25px;width:50px;font-size:15px;" value="登录" ></td>
+        <td colspan="1" align="left"><input type="submit" style="height:25px;width:50px;font-size:15px;" value="登录" ></td>
+        <td colspan="1" align="right"><input type="reset" style="height:25px;width:50px;font-size:15px;" value="刷新" ></td>
       </tr>
     </table>
 
