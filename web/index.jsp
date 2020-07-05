@@ -22,6 +22,18 @@
     <title>欢迎光临</title>
   </head>
   <style>
+    #div1{
+      border:2px solid #a1a1a1;<%--内边距线--%>
+      padding: 20px;
+      margin: 0 auto;
+      background-color: #FFFFF0;
+      width: 300px;
+      height: auto;
+      box-shadow: 10px 10px 5px #888888;<%--添加阴影--%>
+    }
+    body{
+      text-align: center;
+    }
     #p1{
       text-align: center;
        color :black;
@@ -55,16 +67,17 @@
   <p id="p2">
     欢迎光临安科超市
   </p>
+  <div id="div1">
   <p id="p3">
     请输入你的账户密码：
   </p>
   <form name=loginForm action="shop/judgement.jsp" onsubmit="return val()" <%--通过js判断输入用户是否为空--%>method=post>
     <table align="center">
       <tr>
-        <td>用户名：</td><td><input type=text id="id1" name=username placeholder="请输入用户名" /></td>
+        <td>用户名：</td><td><input type=text id="id1" name=username placeholder="用户名:(赵旋or zhaoxuan)" /></td>
       </tr>
       <tr>
-        <td>密码：</td><td><input type=password id="id2" name=password placeholder="请输入密码" /></td>
+        <td>密码：</td><td><input type=password id="id2" name=password placeholder="密码:(2701170232)" /></td>
       <tr/>
 
       <tr>
@@ -74,5 +87,6 @@
     </table>
 
   </form>
+  </div>
   </body>
 </html>
