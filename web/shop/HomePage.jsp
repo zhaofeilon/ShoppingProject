@@ -17,15 +17,25 @@
         color: red;
         text-align: center;
     }
-    #divcss{
+    .div{
         padding: 10px;
         margin: 0 auto;
-        background-color: #40E0D0;
-        width: 80%;
-        height: auto;
+        background-color: #a1a1a1;
+        width: 60%;
+        height: 80%;
         box-shadow: 10px 10px 5px #888888;<%--添加阴影--%>
-
-
+    }
+    .div_left{
+        padding: 10px;
+        float: left;
+        width: 45%;
+        box-shadow: 10px 10px 5px #888888;
+    }
+    .div_right{
+        padding: 10px;
+        float: right;
+        width: 45%;
+        box-shadow: 10px 10px 5px #888888;
     }
 </style>
 <head>
@@ -40,8 +50,47 @@
     %>
 </p>
 
-<div id="divcss">
-niaho
+<div class="div">
+    <div class="div_left">
+    <table border="1" align="center">
+        <tr>
+           <th>fruit</th>
+            <th>价格</th>
+            <th>购买</th>
+        </tr>
+        <tr>
+            <td><img src="fruit/apple.jpg" width="100" height="100" ></td>
+            <td>row 1, cell 2</td>
+            <td>row 1, cell 3</td>
+
+        </tr>
+        <tr>
+            <td>row 2, cell 1</td>
+            <td>row 2, cell 2</td>
+            <td>row 2, cell 3</td>
+        </tr>
+    </table>
+</div>
+    <div class="div_right">
+        <table border="1" align="center">
+            <tr>
+                <th>wenju</th>
+                <th>价格</th>
+                <th>购买</th>
+            </tr>
+            <tr>
+                <td><img src="fruit/apple.jpg" width="100" height="100" ></td>
+                <td>row 1, cell 2</td>
+                <td>row 1, cell 3</td>
+
+            </tr>
+            <tr>
+                <td>row 2, cell 1</td>
+                <td>row 2, cell 2</td>
+                <td>row 2, cell 3</td>
+            </tr>
+        </table>
+    </div>
 </div>
 </body>
 </html>

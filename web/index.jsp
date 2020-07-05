@@ -77,7 +77,7 @@
         <td>用户名：</td><td><input type=text id="id1" name=username placeholder="用户名:(赵旋or zhaoxuan)" /></td>
       </tr>
       <tr>
-        <td>密码：</td><td><input type=password id="id2" name=password placeholder="密码:(2701170232)" /></td>
+        <td>密码：</td><td><input type=password id="id2" name=password placeholder="密码:(2701170232or123)" /></td>
       <tr/>
 
       <tr>

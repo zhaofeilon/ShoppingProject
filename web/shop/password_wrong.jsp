@@ -7,16 +7,21 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<style>
+    body{
+    text-align: center;
+    }
+</style>
 <head>
     <title>wrong</title>
 </head>
 <body>
 <p ><img src="../picture/ahstu.jpg" alt="xiaohui" width="150" height="150">
 </p>
-<h style="font-size: x-large">
+<h style="font-size: x-large ;color: red">
     密码或用户名错误，请重新尝试；
 </h>
-<p style="color: red">
+<p>
     <a href="../index.jsp">点击此处返回首页</a><%--返回上一级目录--%>
 </p>
 </body>
