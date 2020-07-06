@@ -20,21 +20,21 @@
     .div{
         padding: 10px;
         margin: 0 auto;
-        background-color: #a1a1a1;
-        width: 60%;
-        height: 80%;
-        box-shadow: 10px 10px 5px #888888;<%--添加阴影--%>
+        background-color: #FFFFF0;
+        width: 50%;
     }
     .div_left{
         padding: 10px;
         float: left;
-        width: 45%;
+        width: 46%;
+        background-color: #FFFFFF;
         box-shadow: 10px 10px 5px #888888;
     }
     .div_right{
         padding: 10px;
         float: right;
-        width: 45%;
+        width: 46%;
+        background-color: #FFFFFF;
         box-shadow: 10px 10px 5px #888888;
     }
 </style>
@@ -49,48 +49,81 @@
         out.print("欢迎"+name+"来到超市");
     %>
 </p>
-
+<form action="count.jsp">
 <div class="div">
     <div class="div_left">
     <table border="1" align="center">
         <tr>
            <th>fruit</th>
             <th>价格</th>
-            <th>购买</th>
+            <th>购买数量</th>
         </tr>
         <tr>
-            <td><img src="fruit/apple.jpg" width="100" height="100" ></td>
-            <td>row 1, cell 2</td>
-            <td>row 1, cell 3</td>
+            <td><img src="fruit/apple.jpg" width="50" height="50" >apple</td>
+            <td>$ 2.00</td>
+            <td><input type="number" name="apple" style="width: 50px"></td>
 
         </tr>
         <tr>
-            <td>row 2, cell 1</td>
-            <td>row 2, cell 2</td>
-            <td>row 2, cell 3</td>
+            <td><img src="fruit/banana.jpg" width="50" height="50" >banana</td>
+            <td>$ 3.00</td>
+            <td><input type="number" name="banana" style="width: 50px"></td>
+
+
+        </tr>
+        <tr>
+            <td><img src="fruit/strawberry.jpg" width="50" height="50" >strawberry</td>
+            <td>$ 4.00</td>
+            <td><input type="number" name="strawberry" style="width: 50px"></td>
+        </tr>
+        <tr>
+            <td><img src="fruit/mangguo.jpg" width="50" height="50" >mangguo</td>
+            <td>$ 8.00</td>
+            <td><input type="number" name="apple" style="width: 50px"></td>
+        </tr>
+        <tr>
+            <td><img src="fruit/watermelon.jpg" width="50" height="50" >watermelon</td>
+            <td>$ 7.00</td>
+            <td><input type="number" name="watermelon" style="width: 50px"></td>
         </tr>
     </table>
 </div>
     <div class="div_right">
         <table border="1" align="center">
             <tr>
-                <th>wenju</th>
+                <th>文具</th>
                 <th>价格</th>
                 <th>购买</th>
             </tr>
             <tr>
-                <td><img src="fruit/apple.jpg" width="100" height="100" ></td>
-                <td>row 1, cell 2</td>
-                <td>row 1, cell 3</td>
-
+                <td><img src="wenju/notebook.jpg" width="50" height="50" >笔记本</td>
+                <td>$ 10.00</td>
+                <td><input type="number" name="notebook" style="width: 50px"></td>
             </tr>
             <tr>
-                <td>row 2, cell 1</td>
-                <td>row 2, cell 2</td>
-                <td>row 2, cell 3</td>
+                <td><img src="wenju/Eraser.jpg" width="50" height="50" >橡皮擦</td>
+                <td>$ 1.00</td>
+                <td><input type="number" name="Eraser" style="width: 50px"></td>
+            </tr>
+            <tr>
+                <td><img src="wenju/ruler.jpg" width="50" height="50" >尺子</td>
+                <td>$ 1.00</td>
+                <td><input type="number" name="ruler" style="width: 50px"></td>
+            </tr>
+            <tr>
+                <td><img src="wenju/Stationery.jpg" width="50" height="50" >文具盒</td>
+                <td>$ 5.00</td>
+                <td><input type="number" name="Stationery" style="width: 50px"></td>
+            </tr>
+            <tr>
+                <td><img src="wenju/waterpen.jpg" width="50" height="50" >水笔</td>
+                <td>$ 2.00</td>
+                <td><input type="number" name="waterpen" style="width: 50px"></td>
             </tr>
         </table>
     </div>
 </div>
+    <input type="submit" value="加入购物车">
+</form>
 </body>
 </html>
