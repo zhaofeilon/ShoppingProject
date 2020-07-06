@@ -60,30 +60,30 @@
         </tr>
         <tr>
             <td><img src="fruit/apple.jpg" width="50" height="50" >apple</td>
-            <td>$ 2.00</td>
+            <td>￥ 2.00</td>
             <td><input type="number" value="0" name="apple" style="width: 50px"></td>
 
         </tr>
         <tr>
             <td><img src="fruit/banana.jpg" width="50" height="50" >banana</td>
-            <td>$ 3.00</td>
+            <td>￥ 3.00</td>
             <td><input type="number" value="0" name="banana" style="width: 50px"></td>
 
 
         </tr>
         <tr>
             <td><img src="fruit/strawberry.jpg" width="50" height="50" >strawberry</td>
-            <td>$ 4.00</td>
+            <td>￥ 4.00</td>
             <td><input type="number" value="0" name="strawberry" style="width: 50px"></td>
         </tr>
         <tr>
             <td><img src="fruit/mangguo.jpg" width="50" height="50" >mangguo</td>
-            <td>$ 8.00</td>
-            <td><input type="number" value="0" name="apple" style="width: 50px"></td>
+            <td>￥ 8.00</td>
+            <td><input type="number" value="0" name="mangguo" style="width: 50px"></td>
         </tr>
         <tr>
             <td><img src="fruit/watermelon.jpg" width="50" height="50" >watermelon</td>
-            <td>$ 7.00</td>
+            <td>￥ 7.00</td>
             <td><input type="number" value="0" name="watermelon" style="width: 50px"></td>
         </tr>
     </table>
@@ -97,33 +97,34 @@
             </tr>
             <tr>
                 <td><img src="wenju/notebook.jpg" width="50" height="50" >笔记本</td>
-                <td>$ 10.00</td>
+                <td>￥ 10.00</td>
                 <td><input type="number" value="0" name="notebook" style="width: 50px"></td>
             </tr>
             <tr>
                 <td><img src="wenju/Eraser.jpg" width="50" height="50" >橡皮擦</td>
-                <td>$ 1.00</td>
+                <td>￥ 1.00</td>
                 <td><input type="number" value="0" name="Eraser" style="width: 50px"></td>
             </tr>
             <tr>
                 <td><img src="wenju/ruler.jpg" width="50" height="50" >尺子</td>
-                <td>$ 1.00</td>
+                <td>￥ 1.00</td>
                 <td><input type="number" value="0" name="ruler" style="width: 50px"></td>
             </tr>
             <tr>
                 <td><img src="wenju/Stationery.jpg" width="50" height="50" >文具盒</td>
-                <td>$ 5.00</td>
+                <td>￥ 5.00</td>
                 <td><input type="number" value="0" name="Stationery" style="width: 50px"></td>
             </tr>
             <tr>
                 <td><img src="wenju/waterpen.jpg" width="50" height="50" >水笔</td>
-                <td>$ 2.00</td>
+                <td>￥ 2.00</td>
                 <td><input type="number" value="0" name="waterpen" style="width: 50px"></td>
             </tr>
         </table>
     </div>
 </div>
-    <input type="submit" value="加入购物车">
+
+    <input type="submit" value="加入购物车" style="font-size: x-large;color: red ">
 </form>
 </body>
 </html>
