@@ -15,6 +15,9 @@
     body{
         text-align: center;
     }
+    td{
+        text-align: right;
+    }
 </style>
 <body>
 <p ><img src="../picture/ahstu.jpg" alt="xiaohui" width="150" height="150">
@@ -71,58 +74,58 @@
         <th style="width: 100px">价格</th>
     </tr>
     <tr>
-        <td>苹果</td>
+        <td style="text-align: center">苹果</td>
         <td><%out.print(map.get("apple"));%></td>
-        <td>2</td>
-        <td><%=map.get("apple")*2%>元</td>
+        <td>*2元</td>
+        <td ><%=map.get("apple")*2%>元</td>
     </tr>
     <tr>
-        <td>香蕉</td>
-        <td><%out.println(map.get("banana"));%></td>
-        <td>3</td>
+        <td style="text-align: center">香蕉</td>
+        <td><%out.print(map.get("banana"));%></td>
+        <td>*3元</td>
         <td><%=map.get("banana")*3%>元</td>
     </tr>
     <tr>
-        <td>草莓</td>
+        <td style="text-align: center">草莓</td>
         <td><%out.println(map.get("strawberry"));%></td>
-        <td>4</td>
+        <td>*4元</td>
         <td><%=map.get("strawberry")*4%>元</td>
     </tr>
     <tr>
-        <td>芒果</td>
+        <td style="text-align: center">芒果</td>
         <td><%out.println(map.get("mangguo"));%></td>
-        <td>8</td>
+        <td>*8元</td>
         <td><%=map.get("mangguo")*8%>元</td>
     </tr>
     <tr>
-        <td>西瓜</td>
+        <td style="text-align: center">西瓜</td>
         <td><%out.println(map.get("watermelon"));%></td>
-        <td>7</td><td><%=map.get("watermelon")*7%>元</td>
+        <td>*7元</td><td><%=map.get("watermelon")*7%>元</td>
     </tr>
     <tr>
-        <td>笔记本</td>
+        <td style="text-align: center">笔记本</td>
         <td><%out.println(map.get("notebook"));%></td>
-        <td>10</td> <td><%=map.get("notebook")*10%>元</td>
+        <td>*10元</td> <td><%=map.get("notebook")*10%>元</td>
     </tr>
     <tr>
-        <td>橡皮擦</td>
+        <td style="text-align: center">橡皮擦</td>
         <td><%out.println(map.get("Eraser"));%></td>
-        <td>1</td><td><%=map.get("Eraser")*1%>元</td>
+        <td>*1元</td><td><%=map.get("Eraser")*1%>元</td>
     </tr>
     <tr>
-        <td>尺子</td>
+        <td style="text-align: center">尺子</td>
         <td><%out.println(map.get("ruler"));%></td>
-        <td>1</td><td><%=map.get("ruler")*1%>元</td>
+        <td>*1元</td><td><%=map.get("ruler")*1%>元</td>
     </tr>
     <tr>
-        <td>文具盒</td>
+        <td style="text-align: center">文具盒</td>
         <td><%out.println(map.get("Stationery"));%></td>
-        <td>5</td><td><%=map.get("Stationery")*5%>元</td>
+        <td>*5元</td><td><%=map.get("Stationery")*5%>元</td>
     </tr>
     <tr>
-        <td>水笔</td>
+        <td style="text-align: center">水笔</td>
         <td><%out.println(map.get("waterpen"));%></td>
-        <td>2</td><td><%=map.get("waterpen")*2%>元</td>
+        <td>*2元</td><td><%=map.get("waterpen")*2%>元</td>
     </tr>
     <tr>
         <td colspan="4" style="text-align: center;color: red">总价=<%=map.get("apple")*2+map.get("banana")*3+map.get("strawberry")*4+
