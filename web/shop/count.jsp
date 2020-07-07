@@ -131,6 +131,15 @@
         <td colspan="4" style="text-align: center;color: red">总价=<%=map.get("apple")*2+map.get("banana")*3+map.get("strawberry")*4+
                 map.get("mangguo")*8+map.get("watermelon")*7+map.get("Eraser")*1+map.get("ruler")*1
                 +map.get("Stationery")*5+ map.get("waterpen")*2%>元</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="height: 130px; text-align: center" ><img src="zhifu/wechat.jpg" width="110px" height="110px" >
+            <br>
+        <p style="color: green">微信</p></td>
+        <td colspan="2" style="height: 130px; text-align: center" ><img src="zhifu/zhifubao.jpg" width="110px" height="100px" >
+            <br>
+            <p style="color: blue">支付宝</p></td>
+    </tr>
 </table>
 <br>
 <input type="button" value="返回超市" onclick="window.location.href='HomePage.jsp';" style="color: darkturquoise;font-size: x-large"/>
