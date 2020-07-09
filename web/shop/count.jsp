@@ -133,7 +133,7 @@
                 +map.get("Stationery")*5+ map.get("waterpen")*2%>元</td>
     </tr>
     <tr>
-        <td colspan="2" style="height: 130px; text-align: center" ><img src="zhifu/wechat.jpg" width="110px" height="110px" >
+        <td colspan="2" style="height: 130px; text-align: center" ><img src="zhifu/wechat.jpg " width="110px" height="110px" >
             <br>
         <p style="color: green">微信</p></td>
         <td colspan="2" style="height: 130px; text-align: center" ><img src="zhifu/zhifubao.jpg" width="110px" height="100px" >
